@@ -92,7 +92,7 @@ class ViewController: UIViewController {
         self.view.addSubview(mainStack)
         mainStack.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant: 115).isActive = true
         mainStack.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -115).isActive = true
-        mainStack.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -50).isActive = true
+        mainStack.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -90).isActive = true
     }
     
     override func viewDidLayoutSubviews() {
